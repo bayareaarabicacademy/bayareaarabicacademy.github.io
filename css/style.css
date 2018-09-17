@@ -789,6 +789,9 @@ footer span {
 }
 
 @media only screen and ( max-width: 980px) {
+	.mb-0{
+		text-align: center;
+	}
 	#accordion{
 		margin-top: 1%;
 		margin-left: 0;
@@ -855,6 +858,9 @@ footer span {
 <<<<<<< HEAD
 =======
 @media only screen and ( max-width: 360px) {
+	.mb-0{
+		text-align: center;
+	}
 	#accordion button{
 		margin-top: 1%;
 		margin-left: 0;

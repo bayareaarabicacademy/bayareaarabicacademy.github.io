@@ -2160,8 +2160,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: inline-block;
   font-weight: 400;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
+  white-space:normal;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
