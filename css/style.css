@@ -1,43 +1,13 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-body
-	{
-		font-family: 'lane_-_narrowregular', sans-serif;
-        line-height: 30px;
-        margin:0;
-        background: #696969;
-        padding: 0 0 40px 0; /* zero padding except 40 pixels on bottom */
-	}
-<<<<<<< HEAD
-
-=======
 body {
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 40px 0;
 	/* zero padding except 40 pixels on bottom */
 }
->>>>>>> 3372c15... new mobile friendly website
-=======
->>>>>>> ab00ecb... new new
-=======
-body {
-	font-family: 'lane_-_narrowregular', sans-serif;
-	line-height: 30px;
-	margin: 0;
-	background: #696969;
-	padding: 0 0 40px 0;
-	/* zero padding except 40 pixels on bottom */
-}
->>>>>>> 2b7ed63... Updated content, modifying layout
 .navbar-wrapper {
 	margin: 0;
 }
 .container {
-<<<<<<< HEAD
-<<<<<<< HEAD
-   margin-top: 0;
-=======
 	margin-top: 0;
 }
 .header {
@@ -69,31 +39,6 @@ body {
 }
 .missionStatement {
 	list-style-type: none;
->>>>>>> 3372c15... new mobile friendly website
-=======
-	margin-top: 0;
->>>>>>> 2b7ed63... Updated content, modifying layout
-}
-.header {
-	width: 100%;
-	height: 30em;
-}
-.slideshow {
-	margin: 0 auto;
-}
-.title {
-	color: white;
-	font-size: 3.5em;
-	font-weight: bold;
-	margin: 0 auto;
-	margin-left: 0;
-}
-.para {
-	color: white;
-	margin: 0 auto;
-}
-.missionStatement {
-	list-style-type: none;
 }
 @font-face {
 	font-family: 'lane_-_narrowregular';
@@ -102,166 +47,15 @@ body {
 	font-weight: normal;
 	font-style: normal;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 2b7ed63... Updated content, modifying layout
-h1, p {
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-}
-h2, h3 {
-	color: white;
-	font-weight: bold;
-}
-ul {
-	color: white;
-}
-a {
-	color: #32CD32;
-}
-a:hover {
-	color: white;
-}
-hr {
-<<<<<<< HEAD
-  border-color: #32CD32;
-  margin: 0;
-  opacity: 0.3;
-=======
 hr {
 	margin: 0;
 	opacity: 0.3;
->>>>>>> 3372c15... new mobile friendly website
-=======
-	border-color: #32CD32;
-	margin: 0;
-	opacity: 0.3;
->>>>>>> 2b7ed63... Updated content, modifying layout
 }
 img {
 	max-width: 100%;
 	height: auto;
 }
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-=======
->>>>>>> 2b7ed63... Updated content, modifying layout
-/* navigation */
-
-.navbar-default {
-	background: #228B22;
-	border: none;
-	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-	margin: 0 0 0 0 !important;
-}
-.navbar-default .navbar-brand {
-	background: #228B22;
-	color: #fff;
-	font-weight: bold;
-	font-size: 2em;
-	line-height: 1.75em;
-	height: 90px;
-	margin: 0;
-	padding: .6em .1em .5em .1em;
-	transition: all 0.4s ease-in-out;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-}
-.navbar-brand:hover, .navbar-brand:clicked {
-	background: #32CD32;
-}
-.navbar-default .navbar-nav li a {
-	border-right: 1px solid #f9f9f9;
-	color: #fff;
-	font-weight: bold;
-	padding-right: .5em;
-	padding-left: .5em;
-	line-height: 60px;
-	transition: all 0.4s ease-in-out;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-}
-.navbar-default .navbar-nav>li>a:clicked, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color: white;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	color: white;
-	background-color: transparent;
-}
-.navbar-default .navbar-toggle {
-	border: none;
-	padding-top: 20px;
-}
-.navbar-default .navbar-toggle .icon-bar {
-	background: #32CD32;
-	border-color: transparent;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: transparent
-}
-.title {
-	margin-left: 35%;
-	size: 20%;
-}
-#courses h2 {
-	display: inline-block;
-	padding: 10px 20px 10px 10px;
-}
-#courses h3 {
-	display: inline-block;
-	padding: 10px 20px 10px 10px;
-}
-<<<<<<< HEAD
-
-
-/* home section */
-#home {
-  /*background: url('../images/home-bg.jpg')no-repeat;*/
-  background-size: cover;
-  background-position: center;
-  min-height: 600px;
-  padding-bottom: 100px;
-}
-#home h1 {
-  color: #f2af00;
-  font-weight: 300;
-  padding-bottom: 10px;
-}
-#home h2 {
-  line-height: 10px;
-}
-#home .btn {
-  background: rgba(255, 255, 255, 0.6);
-  border: 2px solid #444;
-  border-radius: 0px;
-  color: #444;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  padding-top: 14px;
-  width: 200px;
-  padding: 20px;
-  margin-top: 20px;
-   transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-}
-#home .btn:hover {
-  background: #dc5034;
-  border-color: transparent;
-  color: #fff;
-}
-div.c-wrapper{
-    width: 50%; /* for example */
-    margin: auto;
-=======
 .copyright{
 	align-content: center;
 }
@@ -273,46 +67,17 @@ div.c-wrapper{
 }
 .courses{
 	margin-top: 5%; 
->>>>>>> 3372c15... new mobile friendly website
 }
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img{
-height: 50%;
-width: 60%; /* use this, or not */
-margin: auto;
--webkit-transform-style: preserve-3d;
--moz-transform-style: preserve-3d;
-transform-style: preserve-3d;
+#courses h2 {
+	display: inline-block;
+	padding: 10px 20px 10px 10px;
 }
-.myCarousel{
-    padding-top: -20px;
-}
-.carousel-caption{
-	top: 50%;
-	transform: translateY(-50%);
-	bottom: initial;
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> ab00ecb... new new
-#about h2 {
-<<<<<<< HEAD
-  display: inline-block;
-  padding: 10px 20px 10px 10px;
-=======
 #courses h3 {
 	display: inline-block;
 	text-align: center;
 }
 #about h2 {
 	display: inline-block;s
->>>>>>> 3372c15... new mobile friendly website
-=======
-	display: inline-block;
-	padding: 10px 20px 10px 10px;
->>>>>>> 2b7ed63... Updated content, modifying layout
 }
 #about .col-md-12 {
 	text-align: center;
@@ -324,191 +89,12 @@ transform-style: preserve-3d;
 #about h4 {
 	padding-bottom: 10px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-/* team section */
-#team {
-  padding-top: 60px;
-  padding-bottom: 100px;
-}
-#team h2 {
-  border-left: 2px solid #f2af00;
-  display: inline-block;
-  padding: 10px 10px 10px 20px;
-}
-#team h4 {
-	padding-bottom: 40px;
-=======
 #accordion{
 	width: 80%;
 }
 .card .card-header{
 	width: 100%;
->>>>>>> 3372c15... new mobile friendly website
-}
-#team .col-md-12 {
-  text-align: center;
-  padding-bottom: 60px;
-}
-#team img {
-  border: 1px solid #666;
-  padding: 15px;
-}
-
-
-
-/* portfolio section */
-#portfolio {
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 60px;
-  }
-#portfolio h2 {
-  border-right: 2px solid #f2af00;
-  display: inline-block;
-  padding: 10px 20px 10px 10px;
-}
-/* FILTER CSS */
-.filter-wrapper {
-    width: 100%;
-    margin: 0 0 24px 0;
-    overflow: hidden;
-    text-align: center;
-}
-.filter-wrapper li {
-    display: inline-block;
-    margin: 4px;
-}
-.filter-wrapper li a {
-    color: #999999;
-    font-size: 16px;
-    font-family: 'lane_-_narrowregular', sans-serif;
-    font-weight: bold;
-    padding: 8px 17px;
-    display: block;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-}
-.filter-wrapper li a.selected,
-.filter-wrapper li a:focus,
-.filter-wrapper li a:hover {
-    background: #f2af00;
-    border-color: transparent;
-    color: #ffffff;
-  }
-
-/* ISOTOPE BOX CSS */
-.iso-box-section {
-    width: 100%;
-}
-.iso-box-wrapper {
-    width: 100%;
-    padding: 0;
-    clear: both;
-    position: relative;
-}
-.iso-box {
-    position: relative;
-    min-height: 50px;
-    float: left;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-.iso-box > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.iso-box > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.fluid-img {
-  width: 100%;
-  display: block;
-}
-
-/* pricing section */
-#pricing {
-  padding-top: 60px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-#pricing h2 {
-  border-left: 2px solid #f2af00;
-  display: inline-block;
-  padding: 10px 10px 10px 20px;
-}
-#pricing .plan {
-  border: 2px solid #444;
-  padding: 20px 20px 40px 20px;
-  margin-top: 60px;
-}
-#pricing .plan .plan-title {
-  border-bottom: 2px solid #444;
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 20px;
-}
-#pricing .plan small,
-#pricing .plan ul li {
-  font-family: 'Raleway', sans-serif;
-}
-#pricing .plan ul {
-  padding: 0;
-}
-#pricing .plan ul li {
-  display: block;
-  padding: 16px 0px 16px 0px;
-}
-#pricing .plan .btn {
-  background: transparent;
-  border: 2px solid #444;
-  border-radius: 0px;
-  color: #000;
-  font-weight: bold;
-  width: 140px;
-  height: 50px;
-  transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-}
-#pricing .plan .btn:hover {
-  background: #f2af00;
-  border-color: transparent;
-=======
-=======
-#faqs{
-    background: #696969;
-=======
-#faqs {
-	background: #696969;
->>>>>>> 2b7ed63... Updated content, modifying layout
-}
->>>>>>> ab00ecb... new new
-#faqs .container {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  padding-top: 1em;
->>>>>>> 18039ff... UPDATES
-=======
-  padding-top: 1.5em;
->>>>>>> 6785f09... Update
-=======
-	padding-top: 1.5em;
->>>>>>> 2b7ed63... Updated content, modifying layout
-}
-#faqs a:hover {
-	color: black;
 }
 .heading {
 	text-align: center
@@ -572,21 +158,9 @@ transform-style: preserve-3d;
 	color: #202020;
 }
 .TeacherPic {
-	height: 30%;
-	width: 30%;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.TeacherPic {
 	height: 20%;
 	width: 185px;
 }
-/* footer section */
->>>>>>> 3372c15... new mobile friendly website
-
-=======
->>>>>>> 2b7ed63... Updated content, modifying layout
 /* footer section */
 
 .footer {
@@ -602,42 +176,6 @@ transform-style: preserve-3d;
 .footer p {
 	line-height: 20px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-footer span {
-  font-weight: bold;
-  padding-left: 20px;
-=======
-.footer span {
-	font-weight: bold;
-	padding-left: 20px;
->>>>>>> 2b7ed63... Updated content, modifying layout
-}
-.social-icons {
-	padding: 0;
-	margin: 0;
-}
-.social-icons li {
-	display: inline-block;
-	list-style: none;
-}
-.social-icons li a {
-<<<<<<< HEAD
-  background: #444;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 30px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 10px;
-  transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-=======
 .footer span {
 	font-weight: bold;
 }
@@ -647,8 +185,6 @@ footer span {
 	list-style: none;
 }
 .social-icons li a {
-=======
->>>>>>> 2b7ed63... Updated content, modifying layout
 	background: #444;
 	color: #ffffff;
 	text-decoration: none;
@@ -659,75 +195,15 @@ footer span {
 	text-align: center;
 	vertical-align: middle;
 	margin-right: 10px;
-<<<<<<< HEAD
->>>>>>> 3372c15... new mobile friendly website
-=======
-	transition: all 0.4s ease-in-out;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
->>>>>>> 2b7ed63... Updated content, modifying layout
 }
 .social-icons li a:hover {
 	background: #32CD32;
 }
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-=======
->>>>>>> 2b7ed63... Updated content, modifying layout
-/* copyright section */
-
-.copyright {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-}
-#courses {
-	list-style-type: none;
-}
-/* scrolltop section */
-
-.go-top {
-	background-color: #32CD32;
-	font-size: 26px;
-	bottom: 2em;
-	right: 2em;
-	color: #FFF;
-	display: none;
-	position: fixed;
-	text-decoration: none;
-	width: 60px;
-	height: 60px;
-	line-height: 58px;
-	text-align: center;
-	transition: all 0.4s ease-in-out;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-}
-.go-top:hover {
-	background-color: #444;
-	color: #fff;
-<<<<<<< HEAD
-  }
-
-/* media 960 */
-@media only screen and ( max-width: 980px ) {
-  .navbar-default .navbar-nav li a {
-    padding-right: 10px;
-    padding-left: 10px;
-    line-height: 30px;
-  }
-=======
 .social{
 	text-align: right;
-=======
->>>>>>> 2b7ed63... Updated content, modifying layout
 }
-/* media 960 */
 
-<<<<<<< HEAD
 /* copyright section */
 .copyright {
 	padding-top: 20px;
@@ -811,9 +287,6 @@ footer span {
 		text-align: center;
 		width: 100%;
 	}
-=======
-@media only screen and ( max-width: 980px) {
->>>>>>> 2b7ed63... Updated content, modifying layout
 	.navbar-default .navbar-nav li a {
 		padding-right: 10px;
 		padding-left: 10px;
@@ -829,7 +302,6 @@ footer span {
 	.nav {
 		margin-left: 10px;
 	}
-<<<<<<< HEAD
 
 	.contact{
 		text-align: center;
@@ -846,17 +318,9 @@ footer span {
 	
 
 	
->>>>>>> 3372c15... new mobile friendly website
 }
-
-<<<<<<< HEAD
 /* media 360 */
-@media only screen and ( max-width: 360px ) {
-  #team h4 {
-    padding-bottom: 30px;
-  }
-<<<<<<< HEAD
-=======
+
 @media only screen and ( max-width: 360px) {
 	.mb-0{
 		text-align: center;
@@ -965,18 +429,4 @@ footer span {
 
 .active, .dot:hover {
   background-color: #717171;
->>>>>>> 3372c15... new mobile friendly website
 }
-=======
-}
->>>>>>> e989e40... holy smokes
-=======
-}
-/* media 360 */
-
-@media only screen and ( max-width: 360px) {
-	#team h4 {
-		padding-bottom: 30px;
-	}
-}
->>>>>>> 2b7ed63... Updated content, modifying layout
