@@ -66,7 +66,7 @@ img {
 	text-align: center;
 }
 .courses{
-	margin-top: 5%; 
+	margin-top: 5%;
 }
 #courses h2 {
 	display: inline-block;
@@ -219,18 +219,16 @@ img {
 		width: 80%;
 	}
 	.mainText{
-		margin-top: 7.5%; 
+		margin-top: 7.5%;
 		margin-left: 50.75%;
 		margin-bottom: 5%;
 		text-align: center;
 		width: 50%;
 	}
-}
 
-@media only screen and ( max-width: 2560px) {
 	#carousel{
-		margin-left: 3.5%;
-		width: 45%;
+		margin-left: 6.5%;
+		width: 40%;
 		float: left;
 	}
 	#accordion{
@@ -241,7 +239,7 @@ img {
 		width: 80%;
 	}
 	.mainText{
-		margin-top: 7.5%; 
+		margin-top: 7.5%;
 		margin-left: 49%;
 		margin-bottom: 5%;
 		text-align: center;
@@ -251,12 +249,13 @@ img {
 
 @media only screen and ( max-width: 1366px) {
 	#carousel{
-		margin: 0%;
+		margin-top: 5%;
+		margin-left: 0%;
 		width: 50%;
 		float: left;
 	}
 	.mainText{
-		margin-top: 0; 
+		margin-top: 0;
 		margin-left: 50.75%;
 		margin-bottom: 0;
 		text-align: center;
@@ -269,7 +268,7 @@ img {
 		text-align: center;
 	}
 	#accordion{
-		margin-top: 1%;
+		margin-top: 0;
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: 1%;
@@ -280,9 +279,9 @@ img {
 		margin-bottom: 5%
 	}
 	.mainText{
-		margin-top: 7.5%; 
+		margin-top: 0;
 		margin-left: 0;
-		padding-top: 5%; 
+		padding-top: 5%;
 		margin-bottom: 0;
 		text-align: center;
 		width: 100%;
@@ -315,9 +314,6 @@ img {
 	button.navbar-toggler{
 		float: right;
 	}
-	
-
-	
 }
 /* media 360 */
 
@@ -326,7 +322,7 @@ img {
 		text-align: center;
 	}
 	#accordion button{
-		margin-top: 1%;
+		margin-top: 0;
 		margin-left: 0;
 		margin-right: 0;
 		margin-bottom: 1%;
@@ -337,7 +333,7 @@ img {
 		margin-bottom: 5%;
 	}
 	.mainText{
-		margin-top: 7.5%; 
+		margin-top: 0;
 		margin-bottom: 0;
 		text-align: center;
 		width: 100%;
@@ -351,7 +347,7 @@ img {
 	.navbar-toggler{
 		float: right;
 	}
-	
+
 }
 
 /* Slideshow */
