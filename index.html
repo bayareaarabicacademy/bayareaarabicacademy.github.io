@@ -9,12 +9,13 @@
 	<title>Bay Area Arabic Academy</title>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="css/bootstrap4-hello-world.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
 		<a class="navbar-brand" href="#"><img class="d-inline-block align-top" src="images/BAAA.png" height="150" width="150" alt="Bay Area Arabic Academy"></a>
 		<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,28 +43,29 @@
 				</li>
 			</ul>
 		</div>
-	</nav><!-- header section -->
-	<div class="main">
-			<div class="jumbotron text-light text-center bg-dark mb-0 radius-0">
-					<div class="carousel slide" data-ride="carousel" id="carousel">
-						<ol class="carousel-indicators">
-							<li class="active" data-slide-to="0" data-target="#carousel"></li>
-							<li data-slide-to="1" data-target="#carousel"></li>
-							<li data-slide-to="2" data-target="#carousel"></li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="carousel-item active"><img alt="First slide" class="d-block w-100" src="images/slide1.JPG"></div>
-							<div class="carousel-item"><img alt="Second slide" class="d-block w-100" src="images/slide2.JPG"></div>
-							<div class="carousel-item"><img alt="Third slide" class="d-block w-100" src="images/slide3.JPG"></div>
-						</div><a class="carousel-control-prev" data-slide="prev" href="#carousel" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carousel" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
-					</div>
-					<div class="mainText">
-							<h2><b>اللغة العربية!</b></h2><br>
-							<p>Bay Area Arabic Academy's Arabic Language courses aim to provide 7th to 12th grade students with an introduction to the speaking, reading and writing of the Arabic language. Fremont Unified School District (FUSD) approved Arabic as a Foreign Language for Jr. High and High School students residing in the Fremont area. Newark Unified School District (NUSD) approved Arabic as a Foreign as a Foreign Language for Jr. High and High School students residing in the Newark area. We will work closely with your local school districts for approval and accreditation, so that you can receive credit to meet foreign language graduation and college requirements!</p><br>
-						</div>
+	</nav>
+	<section class="bg-dark text-light text-center bg-dark">
+		<div class="main">
+			<div class="carousel slide" data-ride="carousel" id="carousel">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel"></li>
+					<li data-slide-to="1" data-target="#carousel"></li>
+					<li data-slide-to="2" data-target="#carousel"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active"><img alt="First slide" class="d-block w-100" src="images/slide1.JPG"></div>
+					<div class="carousel-item"><img alt="Second slide" class="d-block w-100" src="images/slide2.JPG"></div>
+					<div class="carousel-item"><img alt="Third slide" class="d-block w-100" src="images/slide3.JPG"></div>
 				</div>
-	</div>
-	<!-- about section -->
+				<a class="carousel-control-prev" data-slide="prev" href="#carousel" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carousel" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+			</div>
+			<div class="mainText">
+				<h2><b>اللغة العربية!</b></h2><br>
+				<p>Bay Area Arabic Academy's Arabic Language courses aim to provide 7th to 12th grade students with an introduction to the speaking, reading and writing of the Arabic language. Fremont Unified School District (FUSD) approved Arabic as a Foreign Language for Jr. High and High School students residing in the Fremont area. Newark Unified School District (NUSD) approved Arabic as a Foreign as a Foreign Language for Jr. High and High School students residing in the Newark area. We will work closely with your local school districts for approval and accreditation, so that you can receive credit to meet foreign language graduation and college requirements!</p><br>
+			</div>
+		</div>
+	</section>
+	<section>
 	<div id="about">
 		<div class="container">
 			<div class="row">
@@ -91,7 +93,9 @@
 					</div>
 				</div>
 			</div>
-		</div><!-- divider section -->
+		</div>
+	</div>
+	</section>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-1 col-sm-1"></div>
@@ -100,7 +104,7 @@
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
 			</div>
-		</div><!-- courses section -->
+		</div>
 		<div id="courses">
 			<h1 class="display-4 ht-tm-element title">Courses Offered</h1>
 			<div class="container">
@@ -141,7 +145,6 @@
 				<p>This course will be counted as a high school level foreign language class for which the student will receive high school credit once approved by their local school district. Students will not need to take another foreign language in school and can use their free period for any other class or elective of their choice.</p>
 			</div>
 		</div>
-
 		<section id="faqs">
 			<br>
 			<h1 class="display-4 ht-tm-element title">FAQ</h1>
@@ -255,7 +258,7 @@
 							</div>
 						</div>
 					</div>
-		</section><!-- divider section -->
+		</section>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-1 col-sm-1"></div>
@@ -264,7 +267,7 @@
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
 			</div>
-		</div><!-- footer section -->
+		</div>
 		<footer id="footer">
 			<div class="container">
 				<div class="row">
@@ -280,7 +283,7 @@
 					</div>
 				</div>
 			</div>
-		</footer><!-- divider section -->
+		</footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-1 col-sm-1"></div>
@@ -290,14 +293,11 @@
 				<div class="col-md-1 col-sm-1"></div>
 			</div>
 		</div>
-
 		<footer class="ht-footer">
 				  <div class="ht-footer-logo">
 					<p class="copyright">&copy; 2020 Bay Area Arabic Academy</p>
 				  </div>
 		</footer>
-
-
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
 		</script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">

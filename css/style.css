@@ -15,6 +15,7 @@ body {
 }
 .main{
 	margin-bottom: 5%;
+	overflow: auto;
 }
 
 #carousel{
@@ -104,7 +105,6 @@ img {
 	margin: 0 auto;
 	text-align: center;
 }
-/* contact section */
 
 #contact {
 	padding-top: 60px;
@@ -157,11 +157,11 @@ img {
 .form-control::-webkit-input-placeholder {
 	color: #202020;
 }
+
 .TeacherPic {
 	height: 20%;
 	width: 185px;
 }
-/* footer section */
 
 .footer {
 	padding-top: 60px;
@@ -204,7 +204,6 @@ img {
 	text-align: right;
 }
 
-/* copyright section */
 .copyright {
 	padding-top: 20px;
 	text-align: center;
@@ -219,47 +218,48 @@ img {
 		width: 80%;
 	}
 	.mainText{
-		margin-top: 7.5%;
-		margin-left: 50.75%;
-		margin-bottom: 5%;
+		margin-top: 6%;
+		margin-bottom: 6%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 		text-align: center;
-		width: 50%;
-	}
-
-	#carousel{
-		margin-left: 6.5%;
+		float: right;
 		width: 40%;
+	}
+	#carousel{
+		width: 55%;
 		float: left;
-	}
-	#accordion{
-		margin-top: 1%;
-		margin-left: 10%;
-		margin-right: 10%;
-		margin-bottom: 1%;
-		width: 80%;
-	}
-	.mainText{
-		margin-top: 7.5%;
-		margin-left: 49%;
-		margin-bottom: 5%;
-		text-align: center;
-		width: 50%;
 	}
 }
 
 @media only screen and ( max-width: 1366px) {
 	#carousel{
-		margin-top: 5%;
-		margin-left: 0%;
-		width: 50%;
+		width: 55%;
 		float: left;
 	}
 	.mainText{
-		margin-top: 0;
-		margin-left: 50.75%;
-		margin-bottom: 0;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		margin-bottom: 5%;
 		text-align: center;
-		width: 50%;
+		float: right;
+		width: 40%;
+	}
+}
+
+@media only screen and ( max-width: 1024px) {
+	#carousel{
+		width: 100%;
+	}
+	.mainText{
+		margin-top: 5%;
+		margin-bottom: 5%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		text-align: center;
+		width: 100%;
 	}
 }
 
@@ -276,15 +276,13 @@ img {
 	}
 	#carousel{
 		width: 100%;
-		margin-bottom: 5%
 	}
 	.mainText{
-		margin-top: 0;
-		margin-left: 0;
-		padding-top: 5%;
-		margin-bottom: 0;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		margin-left: 0%;
+		margin-right: 0%;
 		text-align: center;
-		width: 100%;
 	}
 	.navbar-default .navbar-nav li a {
 		padding-right: 10px;
@@ -315,7 +313,6 @@ img {
 		float: right;
 	}
 }
-/* media 360 */
 
 @media only screen and ( max-width: 360px) {
 	.mb-0{
@@ -330,11 +327,10 @@ img {
 	}
 	#carousel{
 		width: 100%;
-		margin-bottom: 5%;
 	}
 	.mainText{
-		margin-top: 0;
-		margin-bottom: 0;
+		margin-top: 10%;
+		margin-bottom: 5%;
 		text-align: center;
 		width: 100%;
 	}
@@ -350,22 +346,18 @@ img {
 
 }
 
-/* Slideshow */
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
     display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -380,18 +372,15 @@ img {
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -402,7 +391,6 @@ img {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -411,7 +399,6 @@ img {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
