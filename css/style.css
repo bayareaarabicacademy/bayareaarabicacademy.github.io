@@ -2,7 +2,6 @@ body {
 	line-height: 30px;
 	margin: 0;
 	padding: 0 0 40px 0;
-	/* zero padding except 40 pixels on bottom */
 }
 .navbar-wrapper {
 	margin: 0;
@@ -77,12 +76,13 @@ img {
 	text-align: center;
 }
 #about h2 {
-	display: inline-block;s
+	display: inline-block;
 }
+
 #about .col-md-12 {
 	text-align: center;
-	padding-bottom: 60px;
 }
+
 #about img {
 	padding: 10px;
 }
