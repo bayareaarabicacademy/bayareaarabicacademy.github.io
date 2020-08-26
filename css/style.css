@@ -106,56 +106,10 @@ img {
 	text-align: center;
 }
 
-#contact {
-	padding-top: 60px;
-	padding-bottom: 60px;
+.contact{
+	margin: auto;
+	width: 50%;
 	text-align: center;
-}
-#contact h2 {
-	border-right: 2px solid #32CD32;
-	display: inline-block;
-	padding: 10px 20px 10px 10px;
-	margin-bottom: 60px;
-}
-#contact .form-control {
-	border: 2px solid #444;
-	border-radius: 0px;
-	box-shadow: none;
-	font-family: 'Raleway', sans-serif;
-	margin-bottom: 20px;
-}
-#contact .form-control:focus {
-	opacity: 0.8;
-	position: relative;
-	bottom: 10px;
-}
-#contact input {
-	height: 50px;
-}
-#contact input[type="submit"] {
-	background: #444;
-	color: #ffffff;
-	transition: all 0.4s ease-in-out;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-}
-#contact input[type="submit"]:hover {
-	background: #32CD32;
-	border-color: transparent;
-}
-#contact p {
-	padding-top: 10px;
-}
-.form-control::-moz-placeholder {
-	color: #202020;
-	opacity: 1;
-}
-.form-control:-ms-input-placeholder {
-	color: #202020;
-}
-.form-control::-webkit-input-placeholder {
-	color: #202020;
 }
 
 .TeacherPic {
@@ -209,6 +163,21 @@ img {
 	text-align: center;
 }
 
+.mainHeader {
+	margin-left: 1%;
+	margin-top: 5%;
+	font-size: 5em;
+}
+
+.annoucement {
+	border-style: solid;
+	border-color: black;
+	margin-top: 1%;
+	color: red;
+	width: 100%;
+	margin-bottom: 1%;
+}
+
 @media only screen and ( max-width: 2560px) {
 	#accordion{
 		margin-top: 1%;
@@ -218,16 +187,14 @@ img {
 		width: 80%;
 	}
 	.mainText{
-		margin-top: 6%;
-		margin-bottom: 6%;
-		margin-left: 2.5%;
-		margin-right: 2.5%;
-		text-align: center;
+		margin-right: 1.5%;
 		float: right;
 		width: 40%;
 	}
 	#carousel{
+		height: 40%;
 		width: 55%;
+		margin-left: 1.5%;
 		float: left;
 	}
 }
@@ -301,6 +268,8 @@ img {
 	}
 
 	.contact{
+		margin: auto;
+		width: 50%;
 		text-align: center;
 		margin-top: 2%;
 		margin-bottom: 2%;
